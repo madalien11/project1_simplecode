@@ -200,6 +200,46 @@ class S {
     );
   }
 
+  /// `Sign out`
+  String get signOut {
+    return Intl.message(
+      'Sign out',
+      name: 'signOut',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Theme`
+  String get theme {
+    return Intl.message(
+      'Theme',
+      name: 'theme',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Dark Theme`
+  String get darkMode {
+    return Intl.message(
+      'Dark Theme',
+      name: 'darkMode',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Light Theme`
+  String get lightMode {
+    return Intl.message(
+      'Light Theme',
+      name: 'lightMode',
+      desc: '',
+      args: [],
+    );
+  }
+
   /// `Language`
   String get language {
     return Intl.message(
@@ -230,21 +270,21 @@ class S {
     );
   }
 
-  /// `Search characters`
-  String get charactersSearch {
+  /// `Ascending`
+  String get asc {
     return Intl.message(
-      'Search characters',
-      name: 'charactersSearch',
+      'Ascending',
+      name: 'asc',
       desc: '',
       args: [],
     );
   }
 
-  /// `Total number of characters`
-  String get numberOfCharacters {
+  /// `Descending`
+  String get desc {
     return Intl.message(
-      'Total number of characters',
-      name: 'numberOfCharacters',
+      'Descending',
+      name: 'desc',
       desc: '',
       args: [],
     );
@@ -280,21 +320,151 @@ class S {
     );
   }
 
-  /// `Characters`
-  String get characters {
+  /// `Products`
+  String get products {
     return Intl.message(
-      'Characters',
-      name: 'characters',
+      'Products',
+      name: 'products',
       desc: '',
       args: [],
     );
   }
 
-  /// `Characters were not found`
-  String get charactersListIsEmpty {
+  /// `Products were not found`
+  String get productsListIsEmpty {
     return Intl.message(
-      'Characters were not found',
-      name: 'charactersListIsEmpty',
+      'Products were not found',
+      name: 'productsListIsEmpty',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `All`
+  String get all {
+    return Intl.message(
+      'All',
+      name: 'all',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Electronics`
+  String get electronics {
+    return Intl.message(
+      'Electronics',
+      name: 'electronics',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Jewelery`
+  String get jewelery {
+    return Intl.message(
+      'Jewelery',
+      name: 'jewelery',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Men's clothing`
+  String get mensclothing {
+    return Intl.message(
+      'Men\'s clothing',
+      name: 'mensclothing',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Women's clothing`
+  String get womensclothing {
+    return Intl.message(
+      'Women\'s clothing',
+      name: 'womensclothing',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Rating: all`
+  String get rating_all {
+    return Intl.message(
+      'Rating: all',
+      name: 'rating_all',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Rating: 2`
+  String get rating_2 {
+    return Intl.message(
+      'Rating: 2',
+      name: 'rating_2',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Rating: 3`
+  String get rating_3 {
+    return Intl.message(
+      'Rating: 3',
+      name: 'rating_3',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Rating: 4`
+  String get rating_4 {
+    return Intl.message(
+      'Rating: 4',
+      name: 'rating_4',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Rating: 5`
+  String get rating_5 {
+    return Intl.message(
+      'Rating: 5',
+      name: 'rating_5',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Product Details`
+  String get productDetails {
+    return Intl.message(
+      'Product Details',
+      name: 'productDetails',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Price`
+  String get price {
+    return Intl.message(
+      'Price',
+      name: 'price',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Rating`
+  String get rating {
+    return Intl.message(
+      'Rating',
+      name: 'rating',
       desc: '',
       args: [],
     );

@@ -22,14 +22,14 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
+        "all": MessageLookupByLibrary.simpleMessage("Все"),
+        "asc": MessageLookupByLibrary.simpleMessage("По возростанию"),
         "auth": MessageLookupByLibrary.simpleMessage("Авторизация"),
-        "characters": MessageLookupByLibrary.simpleMessage("Персонажи"),
-        "charactersListIsEmpty":
-            MessageLookupByLibrary.simpleMessage("Персонажей не найдено"),
-        "charactersSearch":
-            MessageLookupByLibrary.simpleMessage("Найти персонажа"),
         "close": MessageLookupByLibrary.simpleMessage("Закрыть"),
         "create": MessageLookupByLibrary.simpleMessage("Создать"),
+        "darkMode": MessageLookupByLibrary.simpleMessage("Тёмная Тема"),
+        "desc": MessageLookupByLibrary.simpleMessage("По убыванию"),
+        "electronics": MessageLookupByLibrary.simpleMessage("Электроника"),
         "english": MessageLookupByLibrary.simpleMessage("Английский"),
         "error": MessageLookupByLibrary.simpleMessage("Ошибка"),
         "inputErrorCheckLogin":
@@ -40,23 +40,39 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Неправильный пароль"),
         "inputLoginAndPassword":
             MessageLookupByLibrary.simpleMessage("Введите логин и пароль"),
+        "jewelery": MessageLookupByLibrary.simpleMessage("Драгоценности"),
         "language": MessageLookupByLibrary.simpleMessage("Язык"),
         "lengthErrorCheckLogin": MessageLookupByLibrary.simpleMessage(
             "Логин должен содержать не менее 3 символов"),
         "lengthErrorCheckPassword": MessageLookupByLibrary.simpleMessage(
             "Пароль должен содержать не менее 8 символов"),
+        "lightMode": MessageLookupByLibrary.simpleMessage("Светлая Тема"),
         "login": MessageLookupByLibrary.simpleMessage("Логин"),
         "mainScreen": MessageLookupByLibrary.simpleMessage("Главный экран"),
-        "numberOfCharacters":
-            MessageLookupByLibrary.simpleMessage("Всего персонажей"),
+        "mensclothing": MessageLookupByLibrary.simpleMessage("Мужская одежда"),
         "ok": MessageLookupByLibrary.simpleMessage("Ок"),
         "password": MessageLookupByLibrary.simpleMessage("Пароль"),
+        "price": MessageLookupByLibrary.simpleMessage("Цена"),
+        "productDetails":
+            MessageLookupByLibrary.simpleMessage("Детали Продукта"),
+        "products": MessageLookupByLibrary.simpleMessage("Продукты"),
+        "productsListIsEmpty":
+            MessageLookupByLibrary.simpleMessage("Продуктов не найдено"),
+        "rating": MessageLookupByLibrary.simpleMessage("Рейтинг"),
+        "rating_2": MessageLookupByLibrary.simpleMessage("Рейтинг: 2"),
+        "rating_3": MessageLookupByLibrary.simpleMessage("Рейтинг: 3"),
+        "rating_4": MessageLookupByLibrary.simpleMessage("Рейтинг: 4"),
+        "rating_5": MessageLookupByLibrary.simpleMessage("Рейтинг: 5"),
+        "rating_all": MessageLookupByLibrary.simpleMessage("Рейтинг: все"),
         "registration": MessageLookupByLibrary.simpleMessage("Регистрация"),
         "russian": MessageLookupByLibrary.simpleMessage("Русский"),
         "settings": MessageLookupByLibrary.simpleMessage("Настройки"),
         "signIn": MessageLookupByLibrary.simpleMessage("Войти"),
+        "signOut": MessageLookupByLibrary.simpleMessage("Выйти"),
         "somethingWentWrong":
             MessageLookupByLibrary.simpleMessage("Что-то пошло не так :-("),
-        "tryAgain": MessageLookupByLibrary.simpleMessage("Попробовать снова")
+        "theme": MessageLookupByLibrary.simpleMessage("Тема"),
+        "tryAgain": MessageLookupByLibrary.simpleMessage("Попробовать снова"),
+        "womensclothing": MessageLookupByLibrary.simpleMessage("Женская одежда")
       };
 }

@@ -31,7 +31,7 @@ class AuthTextField extends StatelessWidget {
       controller: controller,
       maxLength: maxLength,
       style: AppTextStyles.s16w400.copyWith(
-        color: AppColors.mainText,
+        color: AppColors.darkText,
       ),
       obscureText: obscureText,
       obscuringCharacter: '・',

@@ -22,14 +22,14 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
+        "all": MessageLookupByLibrary.simpleMessage("All"),
+        "asc": MessageLookupByLibrary.simpleMessage("Ascending"),
         "auth": MessageLookupByLibrary.simpleMessage("Authorization"),
-        "characters": MessageLookupByLibrary.simpleMessage("Characters"),
-        "charactersListIsEmpty":
-            MessageLookupByLibrary.simpleMessage("Characters were not found"),
-        "charactersSearch":
-            MessageLookupByLibrary.simpleMessage("Search characters"),
         "close": MessageLookupByLibrary.simpleMessage("Close"),
         "create": MessageLookupByLibrary.simpleMessage("Create"),
+        "darkMode": MessageLookupByLibrary.simpleMessage("Dark Theme"),
+        "desc": MessageLookupByLibrary.simpleMessage("Descending"),
+        "electronics": MessageLookupByLibrary.simpleMessage("Electronics"),
         "english": MessageLookupByLibrary.simpleMessage("English"),
         "error": MessageLookupByLibrary.simpleMessage("Error"),
         "inputErrorCheckLogin":
@@ -40,23 +40,40 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Wrong password"),
         "inputLoginAndPassword":
             MessageLookupByLibrary.simpleMessage("Input login and password"),
+        "jewelery": MessageLookupByLibrary.simpleMessage("Jewelery"),
         "language": MessageLookupByLibrary.simpleMessage("Language"),
         "lengthErrorCheckLogin": MessageLookupByLibrary.simpleMessage(
             "Login must contain at least 3 characters"),
         "lengthErrorCheckPassword": MessageLookupByLibrary.simpleMessage(
             "Password must contain at least 8 characters"),
+        "lightMode": MessageLookupByLibrary.simpleMessage("Light Theme"),
         "login": MessageLookupByLibrary.simpleMessage("Login"),
         "mainScreen": MessageLookupByLibrary.simpleMessage("Main screen"),
-        "numberOfCharacters":
-            MessageLookupByLibrary.simpleMessage("Total number of characters"),
+        "mensclothing": MessageLookupByLibrary.simpleMessage("Men\'s clothing"),
         "ok": MessageLookupByLibrary.simpleMessage("Ok"),
         "password": MessageLookupByLibrary.simpleMessage("Password"),
+        "price": MessageLookupByLibrary.simpleMessage("Price"),
+        "productDetails":
+            MessageLookupByLibrary.simpleMessage("Product Details"),
+        "products": MessageLookupByLibrary.simpleMessage("Products"),
+        "productsListIsEmpty":
+            MessageLookupByLibrary.simpleMessage("Products were not found"),
+        "rating": MessageLookupByLibrary.simpleMessage("Rating"),
+        "rating_2": MessageLookupByLibrary.simpleMessage("Rating: 2"),
+        "rating_3": MessageLookupByLibrary.simpleMessage("Rating: 3"),
+        "rating_4": MessageLookupByLibrary.simpleMessage("Rating: 4"),
+        "rating_5": MessageLookupByLibrary.simpleMessage("Rating: 5"),
+        "rating_all": MessageLookupByLibrary.simpleMessage("Rating: all"),
         "registration": MessageLookupByLibrary.simpleMessage("Registration"),
         "russian": MessageLookupByLibrary.simpleMessage("Russian"),
         "settings": MessageLookupByLibrary.simpleMessage("Settings"),
         "signIn": MessageLookupByLibrary.simpleMessage("Sign in"),
+        "signOut": MessageLookupByLibrary.simpleMessage("Sign out"),
         "somethingWentWrong":
             MessageLookupByLibrary.simpleMessage("Something went wrong :-("),
-        "tryAgain": MessageLookupByLibrary.simpleMessage("Try again")
+        "theme": MessageLookupByLibrary.simpleMessage("Theme"),
+        "tryAgain": MessageLookupByLibrary.simpleMessage("Try again"),
+        "womensclothing":
+            MessageLookupByLibrary.simpleMessage("Women\'s clothing")
       };
 }
